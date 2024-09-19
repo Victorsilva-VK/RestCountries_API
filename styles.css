@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Nunito;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1280px;
+}
+
+.title {
+    font-weight: 800;
+}
