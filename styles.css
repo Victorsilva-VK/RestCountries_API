@@ -7,11 +7,18 @@ body {
     font-family: Nunito;
 }
 
-.header {
+.header-container {
+    box-shadow: 0 2px 4px 0px rgb(0, 0, 0, 0.1);
+    padding-inline: 24px;
+}
+
+.header-content {
     display: flex;
     align-items: center;
     justify-content: space-around;
     max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 24px;
 }
 
 .title {
